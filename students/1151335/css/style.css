@@ -1,0 +1,45 @@
+body {
+	font-family: times new roman;
+}
+.img img {
+	border: 50%;
+	width: 50%;
+	max-width: 200px;
+	min-height: 150px;
+	margin: 0 auto;
+	border: solid;
+
+}
+
+.img {
+	display: flex;
+        align-items: center;
+}
+
+
+header {
+	width: 100%;
+	background-color: #b4f0a7;
+	padding-bottom: 20px;
+	padding-top: 50px;
+
+}
+
+.presentacion {
+	display: flex;
+    align-items: left;
+    background-color: #b4f0a7;
+    padding-bottom: 30px;
+}
+
+.presentacion__nombre {
+
+	margin: 0 auto;
+
+}
+
+.presentacion span,a {
+
+	margin: 0 auto;
+
+}

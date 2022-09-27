@@ -1,0 +1,51 @@
+body {
+	font-family:'Lucida Sans';
+}
+.img img {
+	border-radius: 50%;
+	width: 50%;
+	max-width: 200px;
+	min-height: 150px;
+	margin: 0 auto;
+	border: solid;
+
+}
+
+.img {
+	display: flex;
+        align-items: center;
+}
+
+h1 {
+	color:darkred;
+}
+
+header {
+	width: 100%;
+	background-color: #f79899;
+	padding-bottom: 20px;
+	padding-top: 50px;
+
+}
+
+.presentacion {
+	display: flex;
+    align-items: center;
+    background-color:  #f79899;
+    padding-bottom: 20px;
+}
+
+.presentacion__nombre {
+
+	margin: 0 auto;
+
+}
+
+p{
+	text-align: justify;
+}
+.presentacion span,a {
+
+	margin: 0 auto;
+
+}

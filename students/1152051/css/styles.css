@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+body {
+    background: url("../img/fondo.jpg") #fff;
+    background-size: auto;
+    font-family: "Open Sans";
+    font-size: 16px; }
+
+header {
+    background: url("../img/desaweb.png"), #49A3D6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .contenedor-texto {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+header .contenedor-texto .texto {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px 60px; }
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2 {
+    color: #fff;
+    font-weight: 300;
+    margin: 0; }
+header .contenedor-texto .texto .nombre {
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px; }
+header .contenedor-texto .texto .profesion {
+    font-size: 25px;
+    line-height: 25px; }
+
+.contenedor{
+    overflow: visible;
+    text-align: center;
+}
+
+.contenedor .img{
+    margin-top: -200px;
+}
+.contenedor .img img{
+    border-radius: 50%;
+    vertical-align: top;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+
+.enlaces{
+    height: 200px;
+    width: 800px;
+    background: #ccc;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.enlaces .info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.enlaces .logos{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlaces .logos span{
+    font-size: 18px;
+}
+
+.enlaces .logos a{
+    color: #fff;
+	text-align: center;
+    display: inline-block;
+	width: 100px;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+}
+
+.github-logo{
+    background: #666666;
+}
+.github-logo:hover{
+    background: #4D4D4D;
+}
+.email-logo{
+    background: #cd201f;
+}
+
+.email-logo:hover{
+    background: #A51514;
+}
+
+.boton{
+    margin: auto;
+	background: #3895ea;
+	color: #fff;    
+	border: none;
+	border-radius: 5px;
+	padding: 15px 40px;
+	cursor: pointer;
+    width: 200px;
+}
+
+.boton:hover{
+    background: #1c7bd3;
+}
+
+.boton a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+}
