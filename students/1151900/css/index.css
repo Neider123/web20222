@@ -1,0 +1,18 @@
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(146,190,119,1) 50%, rgba(253,187,45,1) 100%);
+}
+img{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#informacion{
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    
+}

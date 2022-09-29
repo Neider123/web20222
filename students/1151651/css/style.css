@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(206, 231, 65), rgb(255, 255, 255));
+    font-family: Fantasy;
+}
+.container {
+    width: 400px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 1em;
+}
+
+.datos {
+    display: inline-block;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.img img {
+    width: 400px;
+    height: 400px;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+h1,h2{
+    text-shadow: 2px 2px 5px rgb(206, 231, 65);
+}
